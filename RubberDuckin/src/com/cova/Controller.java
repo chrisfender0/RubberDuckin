@@ -12,11 +12,16 @@ public class Controller {
 	public Controller(Model model, View view) {
 		this.model = model;
 		this.view = view;
-		taskManager();
+		try {
+			taskManager();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
-	private void taskManager() {
+	private void taskManager() throws IOException {
 		view.menuOptions();
+		processUserInput();
 	}
 	
 	private String getUserInput() throws IOException {
@@ -24,6 +29,26 @@ public class Controller {
 		String userInput = br.readLine();
 		br.close();
 		return userInput;
+	}
+	
+	private void processUserInput() throws IOException {
+		int userInput = Integer.parseInt(getUserInput());
+		switch (userInput) {
+		case 1: {
+			model.selectAllFromProduct();
+			break;
+		}
+		case 2:{
+			model.selectAllFromOrders();
+			break;
+		}
+		case 3:{
+			model.selectAllFromCustomers();
+			break;
+		}
+		default: break;
+			
+		}
 	}
 	
 }
