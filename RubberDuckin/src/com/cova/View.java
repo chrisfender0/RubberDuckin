@@ -2,6 +2,7 @@ package com.cova;
 
 public class View {
 	public void menuOptions() {
+		
 		System.out.println("Menu Options:");
 		System.out.println("1. Select products:");
 		System.out.println("2. Select orders:");
