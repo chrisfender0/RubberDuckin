@@ -6,8 +6,4 @@ public class Main {
 		new Controller(new Model(), new View());
 	}
 	
-	public void no() {
-		
-	}
-	
 }
