@@ -9,5 +9,7 @@ public class View {
 		System.out.println("4. Select product details");
 	}
 	
-
+	public void viewStringBuilder(StringBuilder sb) {
+		System.out.println(sb);
+	}
 }
