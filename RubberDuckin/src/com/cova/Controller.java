@@ -89,7 +89,7 @@ public class Controller {
 		rsmd = rset.getMetaData();
 	}
 	
-	private void showResults() throws SQLException {
+	private StringBuilder showResults() throws SQLException {
 		int columnCount = rsmd.getColumnCount();
 		StringBuilder sb = new StringBuilder();
 		
@@ -104,7 +104,7 @@ public class Controller {
 			sb.append("\n");
 		}
 		
-		System.out.println(sb);
+		return sb;
 		
 	}
 	
