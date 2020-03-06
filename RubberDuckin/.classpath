@@ -4,6 +4,10 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="/Assessment6/LIB/mysql-connector-java-8.0.18.jar"/>
+=======
+	<classpathentry kind="lib" path="C:/Users/Student/Desktop/RandomScriptFiles/connector for SQL/mysql-connector-java-8.0.18.jar"/>
+>>>>>>> branch 'master' of https://github.com/chrisfender0/RubberDuckin.git
 	<classpathentry kind="output" path="bin"/>
 </classpath>
