@@ -8,4 +8,6 @@ public class View {
 		System.out.println("3. Select customers");
 		System.out.println("4. Select product details");
 	}
+	
+
 }
