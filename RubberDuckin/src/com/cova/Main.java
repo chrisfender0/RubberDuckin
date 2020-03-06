@@ -7,6 +7,5 @@ public class Main {
 	}
 	public void unnecessaryMethod() {
 		//please push 
-
 	}
 }
