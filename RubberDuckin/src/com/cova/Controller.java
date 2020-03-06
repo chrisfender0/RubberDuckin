@@ -76,6 +76,7 @@ public class Controller {
 			showResults();
 			closeResources();
 			break;
+			
 		}
 		default: 
 			break;
